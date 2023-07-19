@@ -55,6 +55,30 @@
     /* font-size: 10px; */
     margin-bottom: 400px;
   }
+
+  /* play-container */
+  .play-container{
+    /* background-color: aqua; */
+    flex-direction: column;
+  }
+  .play-content{
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+  }
+  .banner-tiitle{
+    /* margin-bottom: 20px; */
+  }
+
+  .play-title{
+    margin-bottom: 20px;
+  }
+  .play-image{
+    width: 70%;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+
 }
 
 /* for tablets */
@@ -114,5 +138,28 @@
   }
   .box-description {
     /* margin-bottom: 400px; */
+  }
+
+  /* play-container */
+  .play-container{
+    /* background-color: aqua; */
+    flex-direction: column;
+  }
+  .play-content{
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+  }
+  .banner-tiitle{
+    /* margin-bottom: 20px; */
+  }
+
+  .play-title{
+    margin-bottom: 20px;
+  }
+  .play-image{
+    width: 70%;
+    margin-left: 50px;
+    margin-top: 20px;
   }
 }
