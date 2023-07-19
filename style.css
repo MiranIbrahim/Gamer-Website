@@ -13,20 +13,25 @@
   color: #ff42a5;
 }
 
-.btn-primary{
-    background-color: #ff42a5;
-    border: none;
-    border-radius: 20px;
-    padding: 10px 20px;
-    margin-top: 30px;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 600;
-    margin-right: 10px;
-
+.btn-primary {
+  background-color: #ff42a5;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-top: 30px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-right: 10px;
 }
-.btn-sky{
-    background-color: #4EC5F7;
+.btn-sky {
+  background-color: #4ec5f7;
+}
+
+.gradient-text {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 /* Nav section Style */
 
@@ -72,14 +77,14 @@ nav > ul {
 
 /* Banners section */
 
-.banner-container{
-    background-image: url("images/banner-content-bg.png");
-    background-repeat: no-repeat;
-    background-size: 50% 100%;
-    
+.banner-container {
+  background-image: url("images/banner-content-bg.png");
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
 }
 
-.banner {
+.banner,
+.games-video {
   max-width: 950px;
   display: flex;
   justify-content: space-around;
@@ -102,13 +107,28 @@ nav > ul {
 .banner-big-text {
   font-size: 4rem;
   font-weight: 800;
-  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .banner-short-text {
   color: #534c64;
   font-size: 1 rem;
   font-weight: 500;
+  line-height: 2;
+}
+/* Game video section */
+
+.video-box {
+  width: 225px;
+  height: 250px;
+}
+
+.video-title {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.video-description {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

@@ -18,7 +18,7 @@
   .banner-container{
     background-image: none;
   }
-  .banner {
+  .banner, .games-video {
     flex-direction: column-reverse;
     margin-top: 10px;
   }
