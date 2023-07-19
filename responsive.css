@@ -1,7 +1,7 @@
 /* for mobile device */
 
 @media screen and (max-width: 572px) {
-/* nav */
+  /* nav */
   .nav-container,
   nav > ul {
     flex-direction: column;
@@ -11,55 +11,11 @@
     margin-top: 20px;
   }
 
-  .logo-container{
-    margin-left: 30px;
+  .logo-container {
+    margin-left: 25px;
   }
   /* banner */
-  .banner-container{
-    background-image: none;
-  }
-  .banner, .games-video {
-    flex-direction: column-reverse;
-    margin-top: 10px;
-  }
-  .banner-content {
-    background-image: url("images/banner-content-bg.png");
-    background-repeat: no-repeat;
-    background-size: 90% 100%;
-    background-position: 30px;
-  }
-  .banner-image img, .banner-content {
-    width: 100%;
-    margin: 0px;
-    text-align: center;
-    padding: 15px 30px;
-  }
-}
-
-
-
-/* for tablets */
-
-
-@media screen and (min-width: 572px) and (max-width: 972px) {
-
-        /* mobile */
-    .nav-container,
-    nav > ul {
-      flex-direction: column;
-      margin-top: 10px;
-    }
-    nav > ul > li {
-      margin-top: 20px;
-    }
-  
-    .logo-container{
-      margin-left: 30px;
-    }
-
-
-      /* banner */
-  .banner-container{
+  .banner-container {
     background-image: none;
   }
   .banner {
@@ -72,10 +28,91 @@
     background-size: 90% 100%;
     background-position: 30px;
   }
-  .banner-image img, .banner-content {
+  .banner-image img,
+  .banner-content {
     width: 100%;
     margin: 0px;
     text-align: center;
     padding: 15px 30px;
   }
+
+  /* video section */
+
+  .games-video {
+    flex-direction: column;
   }
+  .video-box {
+    margin-bottom: 200px;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    width: 70%;
+    /* height: 250px; */
+  }
+  .box-img {
+    margin-bottom: 30px;
+  }
+  .box-description {
+    /* font-size: 10px; */
+    margin-bottom: 400px;
+  }
+}
+
+/* for tablets */
+
+@media screen and (min-width: 572px) and (max-width: 972px) {
+  /* mobile */
+  .nav-container,
+  nav > ul {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  nav > ul > li {
+    margin-top: 20px;
+  }
+
+  .logo-container {
+    margin-left: 30px;
+  }
+
+  /* banner */
+  .banner-container {
+    background-image: none;
+  }
+  .banner {
+    flex-direction: column-reverse;
+    margin-top: 10px;
+  }
+  .banner-content {
+    background-image: url("images/banner-content-bg.png");
+    background-repeat: no-repeat;
+    background-size: 90% 100%;
+    background-position: 30px;
+  }
+  .banner-image img,
+  .banner-content {
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    padding: 15px 30px;
+  }
+
+  /* video section */
+
+  .games-video {
+    flex-direction: column;
+  }
+  .video-box {
+    margin-bottom: 200px;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    width: 40%;
+    /* height: 250px; */
+  }
+  .box-img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .box-description {
+    /* margin-bottom: 400px; */
+  }
+}
