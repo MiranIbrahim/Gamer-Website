@@ -14,6 +14,7 @@
   .logo-container {
     margin-left: 25px;
   }
+
   /* banner */
   .banner-container {
     background-image: none;
@@ -38,42 +39,28 @@
 
   /* video section */
 
-  .games-video {
-    flex-direction: column;
+  .video-play-container .video-gallery {
+    grid-template-columns: 1fr;
   }
-  .video-box {
-    margin-bottom: 200px;
-    margin-top: 10px;
-    padding-bottom: 30px;
-    width: 70%;
-    /* height: 250px; */
-  }
-  .box-img {
-    margin-bottom: 30px;
-  }
-  .box-description {
-    /* font-size: 10px; */
-    margin-bottom: 400px;
+  .video-play-container .video-gallery .box-container .overlay {
+    height: 84%;
   }
 
   /* play-container */
-  .play-container{
-    /* background-color: aqua; */
+
+  .play-container {
     flex-direction: column;
   }
-  .play-content{
+  .play-content {
     width: 100%;
     text-align: center;
     padding: 30px;
   }
-  .banner-tiitle{
-    /* margin-bottom: 20px; */
-  }
 
-  .play-title{
+  .play-title {
     margin-bottom: 20px;
   }
-  .play-image{
+  .play-image {
     width: 70%;
     margin-left: 50px;
     margin-top: 20px;
@@ -81,48 +68,38 @@
 
   /* footer */
 
-  .footer-description, .footer-icon{
+  .footer-description,
+  .footer-icon {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 50px;
-    font-size: 0.8rem;  
+    font-size: 0.8rem;
     font-weight: 600;
     gap: 50px;
   }
-  .footer-icon{
-    font-size: 1.5rem;  
+  .footer-icon {
+    font-size: 1.5rem;
     padding-right: 40px;
   }
-  .footer-options{
+  .footer-options {
     grid-template-columns: repeat(2, 1fr);
   }
-  .last-line{
-    
+  .last-line {
     width: 60%;
     padding: 0px;
     padding-left: 90px;
-
   }
 }
 
 /* for tablets */
 
 @media screen and (min-width: 572px) and (max-width: 972px) {
-  /* mobile */
-  .nav-container,
-  nav > ul {
-    flex-direction: column;
-    margin-top: 10px;
-  }
-  nav > ul > li {
-    margin-top: 20px;
-  }
-
   .logo-container {
     margin-left: 30px;
   }
 
   /* banner */
+
   .banner-container {
     background-image: none;
   }
@@ -146,63 +123,48 @@
 
   /* video section */
 
-  .games-video {
-    flex-direction: column;
+  .video-play-container .video-gallery {
+    grid-template-columns: repeat(2, 1fr);
   }
-  .video-box {
-    margin-bottom: 200px;
-    margin-top: 10px;
-    padding-bottom: 30px;
-    width: 40%;
-    /* height: 250px; */
-  }
-  .box-img {
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-  .box-description {
-    /* margin-bottom: 400px; */
+
+  .video-play-container .video-gallery .box-container .overlay {
+    height: 83%;
   }
 
   /* play-container */
-  .play-container{
-    /* background-color: aqua; */
+
+  .play-container {
     flex-direction: column;
   }
-  .play-content{
+  .play-content {
     width: 100%;
     text-align: center;
     padding: 30px;
   }
-  .banner-tiitle{
-    /* margin-bottom: 20px; */
-  }
 
-  .play-title{
+  .play-title {
     margin-bottom: 20px;
   }
-  .play-image{
+  .play-image {
     width: 70%;
     margin-left: 50px;
     margin-top: 20px;
   }
 
-/* category */
+  /* category */
 
-  .category{
+  .category {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     margin-top: -100px;
     margin-bottom: 150px;
     width: 80%;
     margin: auto;
   }
-/* footer */
+  /* footer */
 
-footer{
-  margin-top: 100px;
-}
-
-
+  footer {
+    margin-top: 100px;
+  }
 }
