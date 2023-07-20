@@ -170,6 +170,7 @@ nav > ul {
 }
 .overlay-title {
   color: #ff42a5;
+  font-weight: 800;
 }
 .video-play-container .video-gallery .box-container .overlay:hover {
   opacity: 1;
